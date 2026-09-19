@@ -1,0 +1,129 @@
+{
+  "parent": "block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "framedblocks:block/frame",
+    "frame": "framedblocks:block/frame_torch",
+    "ember": "framedblocks:block/soul_torch_ember"
+  },
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        9,
+        8,
+        9
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            7,
+            14,
+            9,
+            16
+          ],
+          "texture": "#frame"
+        },
+        "north": {
+          "uv": [
+            7,
+            8,
+            9,
+            16
+          ],
+          "texture": "#frame"
+        },
+        "south": {
+          "uv": [
+            7,
+            8,
+            9,
+            16
+          ],
+          "texture": "#frame"
+        },
+        "east": {
+          "uv": [
+            7,
+            8,
+            9,
+            16
+          ],
+          "texture": "#frame"
+        },
+        "west": {
+          "uv": [
+            7,
+            8,
+            9,
+            16
+          ],
+          "texture": "#frame"
+        }
+      }
+    },
+    {
+      "from": [
+        7,
+        8,
+        7
+      ],
+      "to": [
+        9,
+        10,
+        9
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            7,
+            6,
+            9,
+            8
+          ],
+          "texture": "#ember"
+        },
+        "north": {
+          "uv": [
+            7,
+            6,
+            9,
+            8
+          ],
+          "texture": "#ember"
+        },
+        "south": {
+          "uv": [
+            7,
+            6,
+            9,
+            8
+          ],
+          "texture": "#ember"
+        },
+        "east": {
+          "uv": [
+            7,
+            6,
+            9,
+            8
+          ],
+          "texture": "#ember"
+        },
+        "west": {
+          "uv": [
+            7,
+            6,
+            9,
+            8
+          ],
+          "texture": "#ember"
+        }
+      }
+    }
+  ]
+}

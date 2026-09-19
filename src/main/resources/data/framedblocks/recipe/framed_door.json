@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "FF",
+    "FF",
+    "FF"
+  ],
+  "key": {
+    "F": "framedblocks:framed_block"
+  },
+  "result": {
+    "id": "framedblocks:framed_door",
+    "count": 3
+  }
+}

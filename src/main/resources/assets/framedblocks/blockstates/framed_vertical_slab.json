@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "framedblocks:block/framed_vertical_slab_north"
+    },
+    "facing=south": {
+      "model": "framedblocks:block/framed_vertical_slab_south"
+    },
+    "facing=west": {
+      "model": "framedblocks:block/framed_vertical_slab_west"
+    },
+    "facing=east": {
+      "model": "framedblocks:block/framed_vertical_slab_east"
+    }
+  }
+}

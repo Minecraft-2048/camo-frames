@@ -1,0 +1,276 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "framedblocks:block/frame",
+    "frame": "framedblocks:block/frame",
+    "books": "minecraft:block/bookshelf"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#frame",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#frame",
+          "cullface": "south"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#frame",
+          "cullface": "east"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#frame",
+          "cullface": "west"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#frame",
+          "cullface": "up"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#frame",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        1,
+        -0.002
+      ],
+      "to": [
+        15,
+        7,
+        -0.002
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            9,
+            15,
+            15
+          ],
+          "texture": "#books",
+          "cullface": "north"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        9,
+        -0.002
+      ],
+      "to": [
+        15,
+        15,
+        -0.002
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            15,
+            7
+          ],
+          "texture": "#books",
+          "cullface": "north"
+        }
+      }
+    },
+    {
+      "from": [
+        16.002,
+        1,
+        1
+      ],
+      "to": [
+        16.002,
+        7,
+        15
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            1,
+            9,
+            15,
+            15
+          ],
+          "texture": "#books",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        16.002,
+        9,
+        1
+      ],
+      "to": [
+        16.002,
+        15,
+        15
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            1,
+            1,
+            15,
+            7
+          ],
+          "texture": "#books",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        1,
+        16.002
+      ],
+      "to": [
+        15,
+        7,
+        16.002
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1,
+            9,
+            15,
+            15
+          ],
+          "texture": "#books",
+          "cullface": "south"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        9,
+        16.002
+      ],
+      "to": [
+        15,
+        15,
+        16.002
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            1,
+            1,
+            15,
+            7
+          ],
+          "texture": "#books",
+          "cullface": "south"
+        }
+      }
+    },
+    {
+      "from": [
+        -0.002,
+        1,
+        1
+      ],
+      "to": [
+        -0.002,
+        7,
+        15
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            1,
+            9,
+            15,
+            15
+          ],
+          "texture": "#books",
+          "cullface": "west"
+        }
+      }
+    },
+    {
+      "from": [
+        -0.002,
+        9,
+        1
+      ],
+      "to": [
+        -0.002,
+        15,
+        15
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            1,
+            1,
+            15,
+            7
+          ],
+          "texture": "#books",
+          "cullface": "west"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "framedblocks:framed_block",
+    "minecraft:stone"
+  ],
+  "result": {
+    "count": 1,
+    "id": "framedblocks:framed_stone_button"
+  }
+}

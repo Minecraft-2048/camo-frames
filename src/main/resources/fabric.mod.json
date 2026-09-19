@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "framedblocks",
+  "version": "${version}",
+  "name": "Camo Frames",
+  "description": "Camo framed blocks - 1.21.11 port (Mojang mappings).",
+  "authors": [
+    "pinea"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.claude.framedblocks.FramedBlocksMod"
+    ],
+    "client": [
+      "com.claude.framedblocks.client.FramedBlocksClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "framedblocks.mixins.json"
+  ]
+}

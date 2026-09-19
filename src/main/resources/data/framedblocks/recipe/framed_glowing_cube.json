@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " G ",
+    "GCG",
+    " G "
+  ],
+  "key": {
+    "G": "minecraft:glowstone_dust",
+    "C": "framedblocks:framed_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "framedblocks:framed_glowing_cube"
+  }
+}

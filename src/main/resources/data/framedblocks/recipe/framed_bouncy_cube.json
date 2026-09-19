@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " S ",
+    "SCS",
+    " S "
+  ],
+  "key": {
+    "S": "minecraft:slime_ball",
+    "C": "framedblocks:framed_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "framedblocks:framed_bouncy_cube"
+  }
+}

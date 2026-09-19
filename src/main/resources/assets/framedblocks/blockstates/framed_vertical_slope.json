@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "framedblocks:block/framed_vertical_slope",
+      "uvlock": true
+    },
+    "facing=east": {
+      "model": "framedblocks:block/framed_vertical_slope",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=south": {
+      "model": "framedblocks:block/framed_vertical_slope",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "framedblocks:block/framed_vertical_slope",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

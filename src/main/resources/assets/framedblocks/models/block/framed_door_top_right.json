@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "textures": {
+    "top": "framedblocks:block/frame",
+    "bottom": "framedblocks:block/frame"
+  }
+}

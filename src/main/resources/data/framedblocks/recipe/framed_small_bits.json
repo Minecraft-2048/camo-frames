@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "framedblocks:framed_bits"
+  ],
+  "result": {
+    "id": "framedblocks:framed_small_bits",
+    "count": 8
+  }
+}

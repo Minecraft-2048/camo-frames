@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "framedblocks:block/framed_slab" },
+    "type=top": { "model": "framedblocks:block/framed_slab_top" },
+    "type=double": { "model": "framedblocks:block/framed_block" }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "framedblocks:block/framed_bits" }
+  }
+}

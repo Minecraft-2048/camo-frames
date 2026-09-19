@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "framedblocks:item/framed_slope_inner_corner_icon"
+  }
+}

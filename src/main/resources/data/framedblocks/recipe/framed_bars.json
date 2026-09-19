@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "F F",
+    "FFF",
+    "F F"
+  ],
+  "key": {
+    "F": "framedblocks:framed_block"
+  },
+  "result": {
+    "count": 16,
+    "id": "framedblocks:framed_bars"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "C",
+    "F"
+  ],
+  "key": {
+    "C": "#minecraft:coals",
+    "F": "framedblocks:framed_block"
+  },
+  "result": {
+    "count": 4,
+    "id": "framedblocks:framed_torch"
+  }
+}

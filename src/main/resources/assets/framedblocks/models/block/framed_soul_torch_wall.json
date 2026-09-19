@@ -1,0 +1,147 @@
+{
+  "parent": "block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "framedblocks:block/frame",
+    "frame": "framedblocks:block/frame_torch",
+    "ember": "framedblocks:block/soul_torch_ember"
+  },
+  "elements": [
+    {
+      "from": [
+        -1,
+        3.5,
+        7
+      ],
+      "to": [
+        1,
+        11.5,
+        9
+      ],
+      "rotation": {
+        "origin": [
+          0,
+          3.5,
+          8
+        ],
+        "axis": "z",
+        "angle": -22.5
+      },
+      "faces": {
+        "down": {
+          "uv": [
+            7,
+            14,
+            9,
+            16
+          ],
+          "texture": "#frame"
+        },
+        "north": {
+          "uv": [
+            7,
+            8,
+            9,
+            16
+          ],
+          "texture": "#frame"
+        },
+        "south": {
+          "uv": [
+            7,
+            8,
+            9,
+            16
+          ],
+          "texture": "#frame"
+        },
+        "east": {
+          "uv": [
+            7,
+            8,
+            9,
+            16
+          ],
+          "texture": "#frame"
+        },
+        "west": {
+          "uv": [
+            7,
+            8,
+            9,
+            16
+          ],
+          "texture": "#frame"
+        }
+      }
+    },
+    {
+      "from": [
+        -1,
+        11.5,
+        7
+      ],
+      "to": [
+        1,
+        13.5,
+        9
+      ],
+      "rotation": {
+        "origin": [
+          0,
+          3.5,
+          8
+        ],
+        "axis": "z",
+        "angle": -22.5
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            7,
+            6,
+            9,
+            8
+          ],
+          "texture": "#ember"
+        },
+        "north": {
+          "uv": [
+            7,
+            6,
+            9,
+            8
+          ],
+          "texture": "#ember"
+        },
+        "south": {
+          "uv": [
+            7,
+            6,
+            9,
+            8
+          ],
+          "texture": "#ember"
+        },
+        "east": {
+          "uv": [
+            7,
+            6,
+            9,
+            8
+          ],
+          "texture": "#ember"
+        },
+        "west": {
+          "uv": [
+            7,
+            6,
+            9,
+            8
+          ],
+          "texture": "#ember"
+        }
+      }
+    }
+  ]
+}

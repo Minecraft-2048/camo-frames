@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "FFF"
+  ],
+  "key": {
+    "F": "framedblocks:framed_slab"
+  },
+  "result": {
+    "count": 6,
+    "id": "framedblocks:framed_slab_edge"
+  }
+}

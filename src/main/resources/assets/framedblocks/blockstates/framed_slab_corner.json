@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "framedblocks:block/framed_slab_corner"
+    },
+    "facing=east": {
+      "model": "framedblocks:block/framed_slab_corner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "framedblocks:block/framed_slab_corner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "framedblocks:block/framed_slab_corner",
+      "y": 270
+    }
+  }
+}

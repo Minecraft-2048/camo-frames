@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "F ",
+    " F"
+  ],
+  "key": {
+    "F": "framedblocks:framed_block"
+  },
+  "result": {
+    "id": "framedblocks:framed_double_panel"
+  }
+}

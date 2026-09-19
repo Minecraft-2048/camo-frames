@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "F",
+    "S"
+  ],
+  "key": {
+    "F": "framedblocks:framed_block",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "framedblocks:framed_bits",
+    "count": 8
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "frame": "framedblocks:block/frame",
+    "panel": "framedblocks:block/frame_panel",
+    "particle": "framedblocks:block/frame"
+  },
+  "comment": "Left/right split (along X). Split faces (N/S/top/bottom) use frame_panel (frame + a 2px centre line) mapped at natural 16x16 density, each half taking its texture half so the line lands on the x=8 seam. End caps (west/east) use the plain frame.",
+  "elements": [
+    {
+      "name": "left_panel",
+      "from": [0, 0, 0],
+      "to": [8, 16, 16],
+      "faces": {
+        "west":  { "uv": [0, 0, 16, 16], "texture": "#frame", "cullface": "west" },
+        "north": { "uv": [0, 0, 8, 16],  "texture": "#panel", "cullface": "north" },
+        "south": { "uv": [8, 0, 16, 16], "texture": "#panel", "cullface": "south" },
+        "up":    { "uv": [0, 0, 8, 16],  "texture": "#panel" },
+        "down":  { "uv": [0, 0, 8, 16],  "texture": "#panel" }
+      }
+    },
+    {
+      "name": "right_panel",
+      "from": [8, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "east":  { "uv": [0, 0, 16, 16], "texture": "#frame", "cullface": "east" },
+        "north": { "uv": [8, 0, 16, 16], "texture": "#panel", "cullface": "north" },
+        "south": { "uv": [0, 0, 8, 16],  "texture": "#panel", "cullface": "south" },
+        "up":    { "uv": [8, 0, 16, 16], "texture": "#panel" },
+        "down":  { "uv": [8, 0, 16, 16], "texture": "#panel" }
+      }
+    }
+  ]
+}

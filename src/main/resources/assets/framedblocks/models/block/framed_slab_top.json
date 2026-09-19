@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "framedblocks:block/frame",
+    "top": "framedblocks:block/frame",
+    "side": "framedblocks:block/frame_slab"
+  }
+}

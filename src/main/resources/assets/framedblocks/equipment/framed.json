@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "framedblocks:framed"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "framedblocks:framed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "comment": "half=top is the same wedge mirrored: x:180 flips it over and lands the high side on south, so each y is the bottom rotation turned a further 180 degrees to bring the high side back onto facing.",
+  "variants": {
+    "facing=north,half=bottom": { "model": "framedblocks:block/framed_slope", "uvlock": true },
+    "facing=east,half=bottom":  { "model": "framedblocks:block/framed_slope", "uvlock": true, "y": 90 },
+    "facing=south,half=bottom": { "model": "framedblocks:block/framed_slope", "uvlock": true, "y": 180 },
+    "facing=west,half=bottom":  { "model": "framedblocks:block/framed_slope", "uvlock": true, "y": 270 },
+
+    "facing=north,half=top": { "model": "framedblocks:block/framed_slope", "uvlock": true, "x": 180, "y": 180 },
+    "facing=east,half=top":  { "model": "framedblocks:block/framed_slope", "uvlock": true, "x": 180, "y": 270 },
+    "facing=south,half=top": { "model": "framedblocks:block/framed_slope", "uvlock": true, "x": 180 },
+    "facing=west,half=top":  { "model": "framedblocks:block/framed_slope", "uvlock": true, "x": 180, "y": 90 }
+  }
+}

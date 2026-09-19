@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=west": {
+      "model": "framedblocks:block/framed_slope_inner_corner"
+    },
+    "facing=north": {
+      "model": "framedblocks:block/framed_slope_inner_corner",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "framedblocks:block/framed_slope_inner_corner",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "framedblocks:block/framed_slope_inner_corner",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "framedblocks:framed_slab"
+  ],
+  "result": {
+    "id": "framedblocks:framed_vertical_slab",
+    "count": 1
+  }
+}

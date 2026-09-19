@@ -1,0 +1,32 @@
+{
+  "textures": {
+    "particle": "framedblocks:block/frame",
+    "texture": "framedblocks:block/frame_bar"
+  },
+  "elements": [
+    {
+      "from": [ 7, 12, 0 ],
+      "to": [ 9, 15, 6 ],
+      "__comment": "top bar — stops at the post face (z=6, vanilla goes to 9 inside the post). frame_bar.png holds per-face art: brown outline + attach ends, transparent middle (with rotated copies for uvlock)",
+      "faces": {
+        "down":  { "uv": [ 0, 4, 2, 10 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 4, 2, 10 ], "texture": "#texture" },
+        "north": { "uv": [ 4, 4, 6, 7 ], "texture": "#texture", "cullface": "north" },
+        "west":  { "uv": [ 0, 0, 6, 3 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0, 6, 3 ], "texture": "#texture" }
+      }
+    },
+    {
+      "from": [ 7, 6, 0 ],
+      "to": [ 9, 9, 6 ],
+      "__comment": "lower bar — same art",
+      "faces": {
+        "down":  { "uv": [ 0, 4, 2, 10 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 4, 2, 10 ], "texture": "#texture" },
+        "north": { "uv": [ 4, 4, 6, 7 ], "texture": "#texture", "cullface": "north" },
+        "west":  { "uv": [ 0, 0, 6, 3 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0, 6, 3 ], "texture": "#texture" }
+      }
+    }
+  ]
+}

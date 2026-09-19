@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "framedblocks:block/framed_double_panel" },
+    "facing=east":  { "model": "framedblocks:block/framed_double_panel", "y": 90 },
+    "facing=south": { "model": "framedblocks:block/framed_double_panel", "y": 180 },
+    "facing=west":  { "model": "framedblocks:block/framed_double_panel", "y": 270 }
+  }
+}

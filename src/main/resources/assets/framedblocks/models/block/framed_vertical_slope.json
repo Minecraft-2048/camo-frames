@@ -1,0 +1,99 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "framedblocks:block/frame",
+    "frame": "framedblocks:block/frame"
+  },
+  "elements": [
+    {
+      "__comment": "diagonal face: a thin plate turned 45 deg about Y so it spans the NE-SW corner. Overlong on purpose (-3.45..19.45 instead of 8*sqrt2) so its ends reach past the block edges and leave no gap.",
+      "from": [
+        7.95,
+        0,
+        -3.45
+      ],
+      "to": [
+        8.05,
+        16,
+        19.45
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": -45
+      },
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#frame"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#frame"
+        }
+      }
+    },
+    {
+      "__comment": "north wall",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        0.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#frame"
+        }
+      }
+    },
+    {
+      "__comment": "west wall",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        0.5,
+        16,
+        16
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#frame"
+        }
+      }
+    }
+  ]
+}

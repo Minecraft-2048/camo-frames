@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "FFF",
+    "FLF",
+    "FFF"
+  ],
+  "key": {
+    "F": "framedblocks:framed_block",
+    "L": "minecraft:leather"
+  },
+  "result": {
+    "count": 1,
+    "id": "framedblocks:framed_item_frame"
+  }
+}

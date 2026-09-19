@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "framedblocks:block/framed_slope_inner_corner"
+    },
+    "cases": [
+      {
+        "when": "gui",
+        "model": {
+          "type": "minecraft:model",
+          "model": "framedblocks:item/framed_slope_inner_corner_icon"
+        }
+      },
+      {
+        "when": "fixed",
+        "model": {
+          "type": "minecraft:model",
+          "model": "framedblocks:item/framed_slope_inner_corner_icon"
+        }
+      }
+    ]
+  }
+}

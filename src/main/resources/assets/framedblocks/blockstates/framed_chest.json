@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "framedblocks:block/framed_chest" },
+    "facing=east":  { "model": "framedblocks:block/framed_chest" },
+    "facing=south": { "model": "framedblocks:block/framed_chest" },
+    "facing=west":  { "model": "framedblocks:block/framed_chest" }
+  }
+}

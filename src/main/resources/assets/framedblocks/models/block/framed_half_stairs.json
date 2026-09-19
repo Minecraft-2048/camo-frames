@@ -1,0 +1,41 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "framedblocks:block/frame",
+    "frame": "framedblocks:block/frame"
+  },
+  "elements": [
+    {
+      "from": [8, 0, 0],
+      "to": [16, 8, 8],
+      "faces": {
+        "down":  { "texture": "#frame", "cullface": "down" },
+        "north": { "texture": "#frame", "cullface": "north" },
+        "east":  { "texture": "#frame", "cullface": "east" },
+        "west":  { "texture": "#frame" }
+      }
+    },
+    {
+      "from": [8, 0, 8],
+      "to": [16, 8, 16],
+      "faces": {
+        "down":  { "texture": "#frame", "cullface": "down" },
+        "up":    { "texture": "#frame" },
+        "south": { "texture": "#frame", "cullface": "south" },
+        "east":  { "texture": "#frame", "cullface": "east" },
+        "west":  { "texture": "#frame" }
+      }
+    },
+    {
+      "from": [8, 8, 0],
+      "to": [16, 16, 8],
+      "faces": {
+        "up":    { "texture": "#frame", "cullface": "up" },
+        "north": { "texture": "#frame", "cullface": "north" },
+        "south": { "texture": "#frame" },
+        "east":  { "texture": "#frame", "cullface": "east" },
+        "west":  { "texture": "#frame" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,right=true":  { "model": "framedblocks:block/framed_half_stairs", "uvlock": true },
+    "facing=east,right=true":   { "model": "framedblocks:block/framed_half_stairs", "uvlock": true, "y": 90 },
+    "facing=south,right=true":  { "model": "framedblocks:block/framed_half_stairs", "uvlock": true, "y": 180 },
+    "facing=west,right=true":   { "model": "framedblocks:block/framed_half_stairs", "uvlock": true, "y": 270 },
+    "facing=north,right=false": { "model": "framedblocks:block/framed_half_stairs_left", "uvlock": true },
+    "facing=east,right=false":  { "model": "framedblocks:block/framed_half_stairs_left", "uvlock": true, "y": 90 },
+    "facing=south,right=false": { "model": "framedblocks:block/framed_half_stairs_left", "uvlock": true, "y": 180 },
+    "facing=west,right=false":  { "model": "framedblocks:block/framed_half_stairs_left", "uvlock": true, "y": 270 }
+  }
+}

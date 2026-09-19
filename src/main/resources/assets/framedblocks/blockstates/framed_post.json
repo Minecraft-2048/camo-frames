@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "framedblocks:block/framed_post"
+    },
+    "axis=x": {
+      "model": "framedblocks:block/framed_post",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "framedblocks:block/framed_post",
+      "x": 90
+    }
+  }
+}

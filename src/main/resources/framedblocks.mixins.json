@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.claude.framedblocks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AnvilCamoMixin",
+    "BedrockArmorMixin"
+  ],
+  "client": [
+    "BlockModelWrapperAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

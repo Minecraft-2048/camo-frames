@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "frame": "framedblocks:block/frame",
+    "slab": "framedblocks:block/frame_slab",
+    "particle": "framedblocks:block/frame"
+  },
+  "comment": "Bottom/top split (along Y) so each half is its own set of quads: FramedDoubleSlabModel sorts them by their centre Y to give each half its own camo. A plain cube cannot work, its side faces span the whole height and land exactly on the split. Sides reuse the slab frame the same way vanilla does, bottom half taking the lower half of the texture and top half the upper, so a bare double slab looks like two stacked framed slabs. Interior faces are omitted.",
+  "elements": [
+    {
+      "name": "bottom_slab",
+      "from": [0, 0, 0],
+      "to": [16, 8, 16],
+      "faces": {
+        "down":  { "uv": [0, 0, 16, 16],  "texture": "#frame", "cullface": "down" },
+        "north": { "uv": [0, 8, 16, 16],  "texture": "#slab",  "cullface": "north" },
+        "south": { "uv": [0, 8, 16, 16],  "texture": "#slab",  "cullface": "south" },
+        "west":  { "uv": [0, 8, 16, 16],  "texture": "#slab",  "cullface": "west" },
+        "east":  { "uv": [0, 8, 16, 16],  "texture": "#slab",  "cullface": "east" }
+      }
+    },
+    {
+      "name": "top_slab",
+      "from": [0, 8, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "up":    { "uv": [0, 0, 16, 16],  "texture": "#frame", "cullface": "up" },
+        "north": { "uv": [0, 0, 16, 8],   "texture": "#slab",  "cullface": "north" },
+        "south": { "uv": [0, 0, 16, 8],   "texture": "#slab",  "cullface": "south" },
+        "west":  { "uv": [0, 0, 16, 8],   "texture": "#slab",  "cullface": "west" },
+        "east":  { "uv": [0, 0, 16, 8],   "texture": "#slab",  "cullface": "east" }
+      }
+    }
+  ]
+}

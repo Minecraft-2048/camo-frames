@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "framedblocks:framed_torch",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "count": 1,
+    "id": "framedblocks:framed_redstone_torch"
+  }
+}

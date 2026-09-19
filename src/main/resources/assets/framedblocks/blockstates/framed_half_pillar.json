@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "framedblocks:block/framed_half_pillar_down"
+    },
+    "facing=up": {
+      "model": "framedblocks:block/framed_half_pillar_up"
+    },
+    "facing=north": {
+      "model": "framedblocks:block/framed_half_pillar_north"
+    },
+    "facing=south": {
+      "model": "framedblocks:block/framed_half_pillar_south"
+    },
+    "facing=west": {
+      "model": "framedblocks:block/framed_half_pillar_west"
+    },
+    "facing=east": {
+      "model": "framedblocks:block/framed_half_pillar_east"
+    }
+  }
+}
