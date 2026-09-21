@@ -5,7 +5,7 @@ right click it with any block and it takes that block on — its texture, its
 colour, its light. Sneak and right click with an empty hand to take the camo
 back off; the block is returned to you.
 
-Published on Modrinth: https://modrinth.com/mod/camo-frames
+Published on Modrinth: https://modrinth.com/mod/framed-blocks-for-fabric
 
 ## What it adds
 
